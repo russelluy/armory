@@ -1,0 +1,177 @@
+/* 
+ ==========================================================================
+   Helper Classes
+ ========================================================================== 
+*/
+
+
+/*
+*  Easily center a page's content
+*/
+
+.container {
+	width: 980px; /* Global width */
+	max-width: 100%;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+
+/*
+*  Clearfix: contain floats
+*/
+ 
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+	clear: both;
+	overflow: hidden;
+}
+
+.clear{
+	clear: both;
+}
+
+/*
+*  Drop Down: Adds a nth-level drop down
+*/
+
+.dropdown ul li {
+	position: relative;
+}
+
+.dropdown ul ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	
+	position: absolute;
+	top: 100%; 
+	left: 0;
+	z-index: 999;
+}
+
+.dropdown ul ul ul {
+	left: 100%;
+	top: 0;
+}
+
+.dropdown ul ul li{
+	display: block;
+	width: 100%;
+}
+
+.dropdown ul ul li a {
+	background: #fff;
+	width: 200px;
+	margin: auto;
+	height: auto;
+	display: block;
+	padding: 10px 0;
+	text-indent: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dropdown ul li:hover > ul { 
+	display: block;
+	visibility: visible;
+}
+
+/*
+* Float: left
+*		 right
+*		 none
+*/
+
+.float-left { float: left; }
+
+.float-right { float: right; }
+
+.float-none { float: none; }
+
+/*
+* Text Alignment: left
+*				  right
+*				  center
+*				  justify
+*/
+
+.align-left { text-align: left; }
+
+.align-right { text-align: right; }
+
+.align-center { text-align: center; }
+
+.align-justify { text-align: justify; }
+
+/*
+* Display: block
+*		   inline
+*		   inline-block
+*		   table
+*		   inline-table
+*		   none
+*/
+
+.block { display: block !important; }
+
+.inline { display: inline; }
+
+.inline-block { display: inline-block; }
+
+.table { display: table; }
+
+.inline-table { display: inline-table; }
+
+.none { display: none; }
+
+/*
+* Vertical Alignment: top
+*					  middle
+*					  bottom
+*/
+
+.align-top { vertical-align: top; }
+
+.align-middle { vertical-align: middle; }
+
+.align-bottom { vertical-align: bottom; }
+
+/*
+* Visibility : visible
+*			   hidden
+*/
+
+.visible { visibility: visible; }
+
+.hidden { visibility: hidden; }
+
+/*
+* Image Manipulation
+*/
+
+.thumb-left{
+	float: left;
+	margin-right: 20px;
+}
+
+.thumb-right{
+	float: right;
+	margin-left: 20px;
+}
+
+.thumb-center{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+

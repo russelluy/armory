@@ -1,0 +1,272 @@
+/* Large Tablet Devices ----------- */
+@media only screen 
+and (max-width : 980px) {
+	html, body{
+		-webkit-touch-callout: none;
+		-webkit-user-select: none; /* Webkit */
+		-moz-user-select: none;    /* Firefox */
+		-ms-user-select: none;     /* IE 10  */
+	}
+
+	/*
+	* Header
+	*/
+	header.page-header {
+		height: auto;
+		overflow: visible;
+	}
+	
+	.logo-wrapper,
+	.cb-logo{ 
+		text-align: center;
+		float: none; 
+		margin: auto;
+		display: block;
+	}
+
+	/*
+ 	* Primary Navigation Config
+	*/
+	
+	nav.page-nav{ 
+		float: none !important; ; 
+		clear: both !important; ;
+	}
+	
+	nav.page-nav ul{ 
+		margin: 0 !important; ; 
+		padding: 0 !important; ;
+		text-align: center !important; ; 
+	}
+	
+	nav.page-nav li{
+		width: 24% !important; ;
+		display: inline-block !important; ;
+		vertical-align: top !important;  ;
+		text-align: left !important; ;
+	}
+	
+	nav.page-nav ul li a{ 
+		text-indent: 10px !important; ; 
+		margin: auto !important; ;
+	}
+	
+	nav.page-nav li span{ 
+		display: block !important; ; 
+	}
+	
+	/* Nth Drop Down */
+	nav.page-nav ul ul,
+	nav.page-nav ul li:hover ul{ 
+		display: none !important; ; 
+		left: 0 !important; ; 
+		top: 100% !important; ;
+	}
+	
+	nav.page-nav ul ul li a{ 
+		text-indent: 25px !important; ; 
+	}
+	
+	/* Content Area Drop Down */
+	
+	.page-content,
+	aside.page-sidebar{
+		float: none !important; ;
+		margin: auto !important; ;
+		width: 100% !important; ;
+	}
+	
+	.page-content{
+		text-align: left;
+	}
+	
+	
+	/*
+	* Copyright, Icons Config
+	*/
+	
+	#copyright, .icons{
+		float: none !important; ;
+		margin: 1em auto !important; ;
+		text-align: center !important; ;
+	}
+}
+
+/* Table Devices */
+@media only screen 
+and (max-width : 880px) {
+	
+	/*
+	* Header
+	*/
+	
+	.logo-wrapper,
+	.cb-logo{ 
+		float: none !important; ; 
+	}
+	.logo-wrapper.align-center {
+    padding-top: 9%;
+    }
+	
+	/*
+ 	* Primary Navigation Config
+	*/
+
+	nav.page-nav{z-index: 999;background-color: rgba(0,0,0,0.8)}
+
+	.nav-toggle-button,
+	nav.page-nav li,
+	nav.page-nav li span{ display: block !important; }
+	
+	nav.page-nav{
+		display: none;
+	}
+	
+	nav.page-nav ul{
+		margin: 0 !important; ; 
+		padding: 0 !important; ;
+	}
+	
+	nav.page-nav li{
+		width: 100% !important; ;
+		display: block !important; ;
+	}
+	
+	nav.page-nav li a{
+		padding: 10px 0 !important; ;
+	}
+	
+	/* Nth Drop Down */
+	nav.page-nav ul ul{ 
+		position: relative !important; ;
+	}
+	
+	nav.page-nav ul ul li a{
+		width: auto !important; ;
+	}
+
+	.slogan {
+    display: block  !important;
+    color: #FFF  !important;
+    font-size: 22px  !important;
+    font-family: "GothamB"  !important;
+    line-height: 32px  !important;
+	}
+}
+@media only screen
+and (max-width: 667px){
+
+	.slogan {
+    display: block  !important;
+    color: #FFF  !important;
+    font-size: 22px  !important;
+    font-family: "GothamB"  !important;
+    line-height: 32px  !important;
+	}
+
+}
+
+
+/* Smartphones */
+@media only screen 
+and (max-width : 500px) {
+	/* 
+	* Footer Area Config 
+	*/
+	
+	.nav-footer ul{
+		padding: 0 20px;
+	}
+	
+	.nav-footer ul li{
+		display: block;
+	}
+
+}
+
+@media only screen 
+and (max-width : 320px) {
+	/* 
+	* Header Area Config 
+	*/
+	.container.container-style{  padding-left: 20px !important;
+	  padding-top: 10px !important;
+	  padding-right: 20px !important;}
+	
+	.header-holder{  height: 23% !important;}
+
+	.flickerplate {
+	  position: relative !important;
+	  width: 103% !important;
+	  height: 332px !important;
+	  background-color: #e6e6e6 !important;
+	  overflow: hidden !important;}
+	.spaces-holder{
+		height: 156% !important;
+	}
+	span.span1 {
+	  font-size: 12px !important;
+	}
+	span.span2 {
+	  padding-left: 26px !important;
+	  font-size: 12px !important;
+	}
+	.slogan {
+	  display: block !important;
+	  color: #ffffff !important;
+	  font-size: 18px !important;
+	  font-family: 'GothamB'!important;
+	  line-height: 1.45 !important;
+	  padding-top: 11px  !important;
+	}
+	
+
+	img.logo {
+	  padding-left: 7px !important;
+	  padding-right: 10px !important;
+	}
+
+
+	.container-style {
+	  width: 86% !important;
+	  background-color: rgba(0,0,0,0.5) !important;
+	  padding: 20px 40px !important;
+	}
+
+	section.grid.container.clearfix {
+	  margin: 0px !important;
+	}
+	.page-content {
+	  max-width: 89% !important;
+	  padding: 20px !important;
+	  background-color: rgba(0, 0, 0, 0.65)!important;
+	}
+	
+	a.btn-past{
+		margin-right: -30px !important;
+  		width: 129% !important;
+	}
+	a.btn-floor{
+		margin-left: -25px !important;
+  		width: 129% !important;
+	}
+
+
+	footer.page-footer {
+	  background: rgba(0, 0, 0, 0.72) !important;
+	  color: #fff;
+	  padding: 20px 0 !important;
+	  width: 276px !important;
+	  height: auto !important;
+	  /* margin: 0 auto; */
+	  margin-left: 22px !important;
+	}
+
+	footer a.mail{font-size: 13px !important;}
+	footer span{font-size: 18px !important;}
+}
+
+
+
+
+

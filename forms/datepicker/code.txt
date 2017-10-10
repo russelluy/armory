@@ -1,0 +1,3 @@
+$('#fixed_date, #dob, #date1, #date2').datepick({
+	  showTrigger: '<img src="../images/calendar.gif" alt="Select date" style="margin-left:5px;" />'
+	 });
